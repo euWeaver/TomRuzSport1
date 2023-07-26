@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- title -->
+    <title>TomRuz-Sport Booking Confirmation</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body >
+
+
+
+
+
+
+    <main class="main">
+
+        <!-- breadcrumb -->
+        <!-- breadcrumb end -->
+
+
+
+        <!-- booking confirm -->
+        <div class="booking-confirm py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div class="booking-confirm-content">
+                            <i class="far fa-check"></i>
+                            <h3>Teie tellimus on vastu võetud</h3>
+                            <a href="home-et.html" class="theme-btn">Telli rohkem</a>
+                        </div>
+                       
+                    </div>
+        
+
+                    <div class="col-md-8 mx-auto mt-5">
+                        <div class="booking-summary">
+                            <h3 id="sumor"></h3>
+                            <div id="pdfprint" class="booking-summary-content">
+                                <div class="row g-5">
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Auto Info</h6>
+                                            <ul>
+                                                <li>Auto <span id="carN"></span></li>
+                                    <li>Distants x 2 <span id="dist"></span></li>
+                                    <li>Puhastusteenus <span id="clean"></span></li>
+                                    <li>Vajad kindlustust <span id="ins"></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Rentimise kuupäev ja kellaaeg</h6>
+                                            <ul>
+                                                <li>Algus kuupäev  <span id="pDate"></span></li>
+                                                <li>Algus kellaaeg <span id="pTime"></span></li>
+                                                <li>Lõpp kuupäev  <span id="dDate"></span></li>
+                                                <li>Lõpp kellaaeg <span id="dTime"></span></li>
+                                                <li>Kestus <span id="dur"></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Renti Asukoht</h6>
+                                            <ul>
+                                                <li>Kättesaamine <span id="pickUp"></span></li>
+                                    <li>Tagastus <span id="dropF"></span>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Makse kokkuvõte</h6>
+                                <ul>
+                                    <li>Rent <span id="rent"></span></li>
+                                    <li>Kindlustustasu <span id="insP"></span></li>
+                                    <li>Auto kohaletoimetamine <span id="delP"></span></li>
+                                    <li>Auto mahajätmine <span id="delD"></span></li>
+                                    <li>Distants x 2 <span id="distP"></span></li>
+                                    <li>Puhastusteenus<span id="cleanP"></span></li>
+                                    
+                                </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Arveldusinfo</h6>
+                                            <ul>
+                                                <li>Eesnimi <span id="fName"></span></li>
+                                                <li>Perekonnanimi <span id="lName"></span></li>
+                                                <li>Epost <span id="mail1"></span></li>
+                                                <li>Telefon <span id="phone1"></span></li>
+                                                <li>Aadress <span id="addr"></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="booking-summary-list">
+                                            <h6>Tellimuse info</h6>
+                                            <ul>
+                                                <li>Tellimuse ID <span id="rowId"></span></li>
+                                                <li>Makse staatus <span class="text-success">Completed</span></li>
+                                                <li>Makseviis <span>Card</span></li>
+                                                <li>KM <span>20%</span></li>
+                                                <li class="fw-bold">Kogumakse <span id="total"></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="/download-pdf-et" class="theme-btn">Prindi tellimus <i class="far fa-print"></i></a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- booking confirm end -->
+
+
+    </main>
+
+
+    <!-- scroll-top end -->
+
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+    <script src="assets/js/test1.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
